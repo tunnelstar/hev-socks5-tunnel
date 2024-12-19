@@ -12,10 +12,10 @@
 
 #define MAJOR_VERSION (2)
 #define MINOR_VERSION (7)
-#define MICRO_VERSION (0)
+#define MICRO_VERSION (5)
 
 static const int UDP_BUF_SIZE = 1500;
 static const int UDP_POOL_SIZE = 512;
-static const int TASK_STACK_SIZE = 81920;
+static const int TASK_STACK_SIZE = 20480;
 
 #endif /* __HEV_CONFIG_CONST_H__ */
